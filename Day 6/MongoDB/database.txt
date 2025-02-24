@@ -1,0 +1,36 @@
+Database - Database is used to store and manage data, provide secruity to the data
+
+Types of Databases
+SQL - relational
+NoSQL - non-relational
+
+SQL - record data in table format
+example of SQL databases = mySql, postgreSql,
+requires Data Defination - schema
+
+NoSQL - have their own format of storing data
+example of NoSQL = MongoDB
+do not requires schemas
+
+MongoDB
+MongoDB stores data in JSON like BSON format
+and each record is called Document
+each Document in MongoDB has uniuque id (_id )
+Collection of Document in MongoDB called collection
+
+format 
+
+collection = [
+ document1_id : {
+    _id: uniuque,
+   field1: value1,
+   ...,
+   ...,
+  },
+ document2_id :{
+   _id: uniuque,
+   field1: value1,
+   ...,
+   ...,
+  }
+]
